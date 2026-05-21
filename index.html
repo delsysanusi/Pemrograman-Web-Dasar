@@ -3,55 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Restoran Sederhana</title>
-
+    <title>Curriculum Vitae | Valeria Delsyani Sanusi</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-  
     <header>
-        <h1>Selamat Datang di Restoran Kami</h1>
+        <h1>Valeria Delsyani Sanusi</h1>
+        <nav class="nav-menu">
+            <a href="#tentang">Tentang</a>
+            <a href="#pendidikan">Pendidikan</a>
+            <a href="#keahlian">Keahlian</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
     </header>
 
-    
     <main class="container">
-
-        <p class="menu-text">Menu</p>
+        <p class="menu-text">CV/Resume</p>
 
         <div class="menu">
-
-            <div class="card">
-                <h3>Bakso</h3>
-                <p>Rp 10.000</p>
+            
+            <div class="card" id="tentang">
+                <h3>Tentang Saya</h3>
+                <p>Saya adalah mahasiswi Sarjana Terapan Manajemen Informasi Kesehatan di STIKES Panti Waluya Malang.</p>
             </div>
 
-            <div class="card">
-                <h3>Mie Ayam</h3>
-                <p>Rp 12.000</p>
+            <div class="card" id="pendidikan">
+                <h3>Pendidikan</h3>
+                <p><strong>STIKES Panti Waluya Malang</strong><br>Manajemen Informasi Kesehatan<br>(2023 - Sekarang)</p>
             </div>
 
-            <div class="card">
-                <h3>Matcha</h3>
-                <p>Rp 15.000</p>
+            <div class="card" id="keahlian">
+                <h3>Keahlian</h3>
+                <p>
+                    - Bisa menggunakan komputer<br>
+                    - Bisa bekerja tanpa paksaan<br>
+                    - Bisa berkomunikasi dengan baik
+                </p>
             </div>
 
-            <div class="card">
-                <h3>Ice Cream</h3>
-                <p>Rp 8.000</p>
+            <div class="card" id="kontak">
+                <h3>Kontak</h3>
+                <p>Email: valeria@example.com<br>Malang, Jawa Timur<br>NIM: 31230008</p>
             </div>
 
         </div>
 
-        <button>Pesan Sekarang</button>
-
+        <button onclick="window.print()">Cetak CV</button>
     </main>
 
-   
     <footer>
-        <p>© 2026 Restoran Sederhana Valeria| Tugas Pemrograman Web 1</p>
+        <p>© 2026 Valeria Delsyani Sanusi | Tugas Pemrograman Web 1</p>
     </footer>
 
 </body>
